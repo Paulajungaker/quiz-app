@@ -1,6 +1,7 @@
 [
   {
-    "title": "Quiz 1",
+    "title": "General Knowledge",
+    "image": "../public/GeneralKnowledge.jpg",
     "questions": [
       {
         "question": "What is the capital of France",
@@ -26,6 +27,7 @@
   },
   {
     "title": "Science Quiz",
+    "image": "../public/Science.jpg",
     "questions": [
       {
         "question": "What is the boiling point of water in Celsius?",

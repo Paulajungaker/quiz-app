@@ -1,9 +1,13 @@
 import PropTypes from "prop-types";
+import "../styling/QuizCard.css";
+import { Link } from "react-router-dom";
 
-const QuizCard = ({ quiz, onClick }) => {
+const QuizCard = ({ quiz }) => {
   return (
-    <div className="quizCardContainer" onClick={onClick}>
-      <h2>{quiz.title}</h2>
+    <div className="quizCardContainer">
+      <h2 className="QuizCardTitle">{quiz.title}</h2>
+      <img src={quiz.image} alt={quiz.title} className="quizCardImage" />
+      <Link to={`/quiz/${quiz.id}`}>Start Quiz</Link>
     </div>
   );
 };

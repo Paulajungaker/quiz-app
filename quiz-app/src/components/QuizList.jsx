@@ -1,26 +1,18 @@
-import { useState } from "react";
+import { Link } from "react-router-dom";
 import QuizCard from "./QuizCard";
-import Quiz from "./Quiz";
 import quizData from "../quizData.json";
 
 const Quizlist = () => {
-  const [selectedQuizIndex, setSelectedQuizIndex] = useState(null);
-
   return (
     <div>
       <h1>Choose a Quiz</h1>
       <div className="quizCards">
-        {quizData.map((quiz, index) => {
-          <QuizCard
-            key={index}
-            quiz={quiz}
-            onClick={() => setSelectedQuizIndex(index)}
-          />;
-        })}
+        {quizData.map((quiz, index) => (
+          <Link key={index} to={`/quiz/${encodeURIComponent(quiz.title)}`}>
+            <QuizCard quiz={quiz} />
+          </Link>
+        ))}
       </div>
-      {selectedQuizIndex !== null && (
-        <Quiz quiz={quizData[selectedQuizIndex]} />
-      )}
     </div>
   );
 };
