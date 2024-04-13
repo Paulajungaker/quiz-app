@@ -1,4 +1,5 @@
 import { useState } from "react";
+import QuizCard from "./QuizCard";
 import Quiz from "./Quiz";
 import quizData from "../quizData.json";
 
@@ -8,13 +9,15 @@ const Quizlist = () => {
   return (
     <div>
       <h1>Choose a Quiz</h1>
-      <ul>
-        {quizData.map((quiz, index) => (
-          <li key={index} onClick={() => setSelectedQuizIndex(index)}>
-            <h2>{quiz.title}</h2>
-          </li>
-        ))}
-      </ul>
+      <div className="quizCards">
+        {quizData.map((quiz, index) => {
+          <QuizCard
+            key={index}
+            quiz={quiz}
+            onClick={() => setSelectedQuizIndex(index)}
+          />;
+        })}
+      </div>
       {selectedQuizIndex !== null && (
         <Quiz quiz={quizData[selectedQuizIndex]} />
       )}
