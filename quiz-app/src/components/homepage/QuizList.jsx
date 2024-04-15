@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import QuizCard from "./QuizCard";
-import quizData from "../quizData.json";
+import quizData from "../../quizData.json";
 
 const Quizlist = () => {
   return (

@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "../styling/QuizCard.css";
+import "../../styling/QuizCard.css";
 import { Link } from "react-router-dom";
 
 const QuizCard = ({ quiz }) => {
