@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import QuizList from "./homepage/QuizList";
 import Header from "./homepage/Header";
 import QuizPage from "./quizzes/QuizPage";
-import QuizCompletedPage from "./quizzes/QuizCompletionPage";
+import QuizCompletedPage from "./quizzes/QuizCompletedPage";
 
 const AppRoutes = () => {
   return (
