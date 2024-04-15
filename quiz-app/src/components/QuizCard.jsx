@@ -7,14 +7,15 @@ const QuizCard = ({ quiz }) => {
     <div className="quizCardContainer">
       <h2 className="QuizCardTitle">{quiz.title}</h2>
       <img src={quiz.image} alt={quiz.title} className="quizCardImage" />
-      <Link to={`/quiz/${quiz.id}`}>Start Quiz</Link>
+      <div>
+        <Link to={`/quiz/${encodeURIComponent(quiz.title)}`}>Start Quiz</Link>
+      </div>
     </div>
   );
 };
 
 QuizCard.propTypes = {
   quiz: PropTypes.object.isRequired,
-  onClick: PropTypes.func.isRequired,
 };
 
 export default QuizCard;

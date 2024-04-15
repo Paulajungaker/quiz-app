@@ -5,7 +5,7 @@ import quizData from "../quizData.json";
 const Quizlist = () => {
   return (
     <div>
-      <h1>Choose a Quiz</h1>
+      <h1 className="listTitle">Choose a Quiz</h1>
       <div className="quizCards">
         {quizData.map((quiz, index) => (
           <Link key={index} to={`/quiz/${encodeURIComponent(quiz.title)}`}>
