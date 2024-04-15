@@ -1,0 +1,23 @@
+.completedContainer {
+  border: 5px solid red;
+  text-align: center;
+  padding: 150px 10px 0 10px;
+  height: 100vh;
+  font-family: var(---main-font);
+}
+
+.completedTitle {
+  font-size: 24px;
+}
+
+.completedScore {
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.completedText {
+  font-size: 16px;
+}
+
+.linkToHomepage {
+}

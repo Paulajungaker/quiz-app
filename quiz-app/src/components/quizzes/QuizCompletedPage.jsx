@@ -1,4 +1,5 @@
 import { Link, useLocation } from "react-router-dom";
+import "../../styling/QuizCompletedPage.css";
 
 const QuizCompletedPage = () => {
   const location = useLocation();
@@ -8,13 +9,15 @@ const QuizCompletedPage = () => {
   const totalQuestions = state?.totalQuestions;
 
   return (
-    <div>
-      <h1>Quiz Completed</h1>
-      <p>
+    <div className="completedContainer">
+      <h1 className="completedTitle">You have completed the Quiz</h1>
+      <p className="completedScore">
         Your score: {score} / {totalQuestions}
       </p>
-      <p>Thank you for taking the quiz</p>
-      <Link to="/">Back to Home</Link>
+      <p className="completedText">Thank you for taking the quiz</p>
+      <Link className="linkToHomepage" to="/">
+        Back to Home
+      </Link>
     </div>
   );
 };
