@@ -16,7 +16,7 @@ const QuizCompletedPage = ({ score, totalQuestions }) => {
 
 QuizCompletedPage.propTypes = {
   score: PropTypes.number.isRequired,
-  totalQuestions: PropTypes.number.isRequired,
+  totalQuestions: PropTypes.number,
 };
 
 export default QuizCompletedPage;

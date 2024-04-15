@@ -27,7 +27,7 @@ const QuizPage = () => {
   };
 
   return (
-    <div>
+    <div className="quizPageContainer">
       <Question
         question={selectedQuiz.questions[currentQuestionIndex]}
         onAnswerSubmit={handleSubmitAnswer}

@@ -1,16 +1,21 @@
 import PropTypes from "prop-types";
+import "../../styling/Question.css";
 
 const Question = ({ question, onAnswerSubmit }) => {
   return (
-    <div>
-      <h2>{question.question}</h2>
-      <ul>
+    <div className="questionContainer">
+      <h2 className="questionTitle">{question.question}</h2>
+      <div className="optionsContainer">
         {question.options.map((option, index) => (
-          <li key={index}>
-            <button onClick={() => onAnswerSubmit(index)}>{option}</button>
-          </li>
+          <button
+            key={index}
+            className="questionButtons"
+            onClick={() => onAnswerSubmit(index)}
+          >
+            {option}
+          </button>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };
