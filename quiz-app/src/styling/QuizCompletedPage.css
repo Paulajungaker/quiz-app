@@ -1,13 +1,14 @@
 .completedContainer {
-  border: 5px solid red;
   text-align: center;
   padding: 150px 10px 0 10px;
   height: 100vh;
   font-family: var(---main-font);
+  background-color: #ffc470;
 }
 
 .completedTitle {
   font-size: 24px;
+  padding-bottom: 10px;
 }
 
 .completedScore {
@@ -19,5 +20,13 @@
   font-size: 16px;
 }
 
-.linkToHomepage {
+.buttonToHomepage {
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: none;
+  font-family: var(---main-font);
+  font-size: 16px;
+  margin-top: 20px;
+  background-color: #8b322c;
+  color: white;
 }
