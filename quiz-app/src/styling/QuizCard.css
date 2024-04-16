@@ -1,3 +1,8 @@
+.quizCards {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .listTitle {
   text-align: center;
   font-size: 24px;
@@ -32,4 +37,35 @@
   color: white;
   text-align: center;
   font-family: var(---main-font);
+}
+
+@media (min-width: 745px) {
+  .quizCards {
+    grid-template-columns: 1fr 1fr;
+    width: 600px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .quizCards {
+    grid-template-columns: repeat(3, 1fr);
+    width: 900px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .quizCards {
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+  }
+
+  .quizCardContainer {
+    width: 350px;
+    height: 300px;
+  }
+
+  .QuizCardTitle {
+    font-size: 30px;
+  }
 }

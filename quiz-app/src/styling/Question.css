@@ -45,3 +45,26 @@
   background-color: #8b322c;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
+
+@media (min-width: 745px) {
+  .questionContainer {
+    width: 500px;
+    padding: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .questionContainer {
+    width: 600px;
+    padding: 50px;
+  }
+
+  .questionTitle {
+    font-size: 30px;
+  }
+
+  .questionButtons {
+    padding: 15px 20px;
+    font-size: 24px;
+  }
+}

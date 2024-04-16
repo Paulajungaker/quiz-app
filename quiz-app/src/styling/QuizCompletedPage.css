@@ -36,3 +36,23 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   background-color: #dd5746;
 }
+
+@media (min-width: 1024px) {
+  .completedTitle {
+    font-size: 30px;
+    padding-bottom: 20px;
+  }
+
+  .completedScore {
+    font-size: 30px;
+  }
+
+  .completedText {
+    font-size: 30px;
+  }
+
+  .buttonToHomepage {
+    padding: 15px 20px;
+    font-size: 24px;
+  }
+}

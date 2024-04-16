@@ -52,7 +52,7 @@
 /*** Desktop L ***/
 @media (min-width: 1500px) {
   .headerContainer {
-    padding: 200px;
+    padding: 200px 0;
   }
 
   .header {
