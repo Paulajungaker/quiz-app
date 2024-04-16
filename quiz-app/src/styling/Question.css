@@ -13,6 +13,7 @@
   align-items: center;
   font-family: var(---main-font);
   background: #4793af;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .questionTitle {
@@ -37,4 +38,10 @@
   border: none;
   border-radius: 10px;
   font-size: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.questionButtons:hover {
+  background-color: #8b322c;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }

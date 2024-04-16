@@ -1,10 +1,13 @@
 .listTitle {
   text-align: center;
   font-size: 24px;
+  font-family: var(---main-font);
+  padding-top: 20px;
 }
 
 .quizCardContainer {
-  border: 5px solid black;
+  border-left: 10px solid #4793af;
+  border-bottom: 10px solid #4793af;
   width: 250px;
   margin: 20px auto;
   height: 200px;
@@ -17,6 +20,7 @@
   left: 0;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .QuizCardTitle {

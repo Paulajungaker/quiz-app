@@ -29,4 +29,10 @@
   margin-top: 20px;
   background-color: #8b322c;
   color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.buttonToHomepage:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  background-color: #dd5746;
 }
