@@ -1,7 +1,7 @@
 [
   {
     "title": "General Knowledge",
-    "image": "../public/GeneralKnowledge.jpg",
+    "image": "/GeneralKnowledge.jpg",
     "questions": [
       {
         "question": "What is the capital of France",
@@ -27,7 +27,7 @@
   },
   {
     "title": "Science Quiz",
-    "image": "../public/Science.jpg",
+    "image": "/Science.jpg",
     "questions": [
       {
         "question": "What is the boiling point of water in Celsius?",
@@ -48,7 +48,7 @@
   },
   {
     "title": "Dogs Quiz",
-    "image": "../public/Dogs.jpg",
+    "image": "/Dogs.jpg",
     "questions": [
       {
         "question": "What is the average lifespan of a dog?",
@@ -83,7 +83,7 @@
   },
   {
     "title": "Cars Quiz",
-    "image": "../public/Cars.jpg",
+    "image": "/Cars.jpg",
     "questions": [
       {
         "question": "Which car manufacturer produces the Mustang?",
@@ -124,7 +124,7 @@
   },
   {
     "title": "Horse Quiz",
-    "image": "../public/Horses.jpg",
+    "image": "/Horses.jpg",
     "questions": [
       {
         "question": "What is the average lifespan of a horse?",
@@ -155,7 +155,7 @@
   },
   {
     "title": "Math Quiz",
-    "image": "../public/Math.jpg",
+    "image": "/Math.jpg",
     "questions": [
       {
         "question": "What is the result of 5 * 8?",
@@ -196,7 +196,7 @@
   },
   {
     "title": "Geography Quiz",
-    "image": "../public/Geography.jpg",
+    "image": "/Geography.jpg",
     "questions": [
       {
         "question": "What is the capital of Australia?",
@@ -242,7 +242,7 @@
   },
   {
     "title": "Biology Quiz",
-    "image": "../public/Biology.jpg",
+    "image": "/Biology.jpg",
     "questions": [
       {
         "question": "What is the powerhouse of the cell?",
