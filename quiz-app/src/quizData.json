@@ -45,5 +45,245 @@
         "correctAnswerIndex": 0
       }
     ]
+  },
+  {
+    "title": "Dogs Quiz",
+    "image": "../public/Dogs.jpg",
+    "questions": [
+      {
+        "question": "What is the average lifespan of a dog?",
+        "options": ["8-10 years", "12-15 years", "20-25 years"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "What is the most popular dog breed in the United States?",
+        "options": [
+          "Golden Retriever",
+          "German Shepherd",
+          "Labrador Retriever"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "What breed is often referred to as 'man's best friend'?",
+        "options": ["Poodle", "Chihuahua", "Labrador Retriever"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "What is a dog's most highly developed sense?",
+        "options": ["Taste", "Smell", "Hearing"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which dog breed is known for its distinctive blue-black tongue?",
+        "options": ["Labrador Retriever", "Chow Chow", "Dachshund"],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "title": "Cars Quiz",
+    "image": "../public/Cars.jpg",
+    "questions": [
+      {
+        "question": "Which car manufacturer produces the Mustang?",
+        "options": ["Ford", "Chevrolet", "Dodge", "Toyota"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "What is the top speed of a Bugatti Veyron Super Sport?",
+        "options": ["220 mph", "240 mph", "260 mph", "280 mph"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "question": "Which car is often referred to as the 'people's car'?",
+        "options": [
+          "Volkswagen Beetle",
+          "Ferrari 458 Italia",
+          "Porsche 911",
+          "Tesla Model S"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "What was the first mass-produced car in the world?",
+        "options": [
+          "Ford Model T",
+          "Toyota Corolla",
+          "Mercedes-Benz 300SL",
+          "Volkswagen Beetle"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Which car company produces the Prius?",
+        "options": ["Toyota", "Honda", "Chevrolet", "Tesla"],
+        "correctAnswerIndex": 0
+      }
+    ]
+  },
+  {
+    "title": "Horse Quiz",
+    "image": "../public/Horses.jpg",
+    "questions": [
+      {
+        "question": "What is the average lifespan of a horse?",
+        "options": ["20-25 years", "30-35 years", "40-45 years"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "What is the fastest recorded speed of a horse?",
+        "options": ["40 mph", "50 mph", "60 mph"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "What is a baby horse called?",
+        "options": ["Calf", "Foal", "Filly"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "What is the term for a horse's coat color which is white with red/brown spots?",
+        "options": ["Palomino", "Appaloosa", "Pinto"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "What is the term for the process of giving birth in horses?",
+        "options": ["Farrowing", "Foaling", "Kidding"],
+        "correctAnswerIndex": 1
+      }
+    ]
+  },
+  {
+    "title": "Math Quiz",
+    "image": "../public/Math.jpg",
+    "questions": [
+      {
+        "question": "What is the result of 5 * 8?",
+        "options": ["25", "40", "45", "56"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "What is the square root of 144?",
+        "options": ["12", "14", "16", "18"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "What is 25 divided by 5?",
+        "options": ["4", "5", "10", "20"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "What is the value of 'x' in the equation 2x + 5 = 15?",
+        "options": ["5", "6", "7", "8"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "What is the next number in the sequence: 2, 4, 6, 8, ...?",
+        "options": ["9", "10", "11", "12"],
+        "correctAnswerIndex": 3
+      },
+      {
+        "question": "What is 3 to the power of 4?",
+        "options": ["27", "64", "81", "12"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "What is the value of 'y' in the equation 2y - 8 = 10?",
+        "options": ["8", "9", "10", "11"],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "title": "Geography Quiz",
+    "image": "../public/Geography.jpg",
+    "questions": [
+      {
+        "question": "What is the capital of Australia?",
+        "options": ["Melbourne", "Sydney", "Canberra", "Perth"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "What is the largest ocean in the world?",
+        "options": [
+          "Atlantic Ocean",
+          "Indian Ocean",
+          "Arctic Ocean",
+          "Pacific Ocean"
+        ],
+        "correctAnswerIndex": 3
+      },
+      {
+        "question": "Which river is the longest in the world?",
+        "options": [
+          "Amazon River",
+          "Nile River",
+          "Yangtze River",
+          "Mississippi River"
+        ],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which country is the largest by land area?",
+        "options": ["United States", "China", "Russia", "Canada"],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "What is the capital of Brazil?",
+        "options": [
+          "Rio de Janeiro",
+          "São Paulo",
+          "Brasília",
+          "Belo Horizonte"
+        ],
+        "correctAnswerIndex": 2
+      }
+    ]
+  },
+  {
+    "title": "Biology Quiz",
+    "image": "../public/Biology.jpg",
+    "questions": [
+      {
+        "question": "What is the powerhouse of the cell?",
+        "options": [
+          "Nucleus",
+          "Ribosome",
+          "Mitochondria",
+          "Endoplasmic Reticulum"
+        ],
+        "correctAnswerIndex": 2
+      },
+      {
+        "question": "What is the smallest unit of life?",
+        "options": ["Cell", "Organ", "Tissue", "Organism"],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "What is the process by which plants make their own food?",
+        "options": [
+          "Photosynthesis",
+          "Respiration",
+          "Transpiration",
+          "Germination"
+        ],
+        "correctAnswerIndex": 0
+      },
+      {
+        "question": "Which gas do plants absorb from the atmosphere?",
+        "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+        "correctAnswerIndex": 1
+      },
+      {
+        "question": "Which of the following is NOT a type of blood cell?",
+        "options": [
+          "Red Blood Cell",
+          "White Blood Cell",
+          "Platelet",
+          "Nerve Cell"
+        ],
+        "correctAnswerIndex": 3
+      }
+    ]
   }
 ]
